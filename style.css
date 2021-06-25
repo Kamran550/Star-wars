@@ -1,0 +1,29 @@
+.btn{
+position: absolute;
+left: 48%;
+}
+
+.heroes .img-1{
+    border: 5px solid lime;
+    margin: 10px !important;
+    text-align: center;
+}
+
+.choice{
+    display: flex !important;
+    justify-content: space-between;
+    margin-top: 20px !important;
+
+}
+
+.comp{
+    border: 1px solid blue;
+}
+
+.your{
+    border: 1px solid black;
+}
+
+p{
+    font-weight: bold;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 class="text-center">Star Wars RPG</h1>
+  <h3 class="text-center">Select Your Character</h3>
+
+  <div class="heroes text-center d-flex justify-content-center">
+    <div class="img-1" data-target="200" data-attack="50" id="darth">
+      <img src="./images/darth-maul.jpg" alt="" width="200px" height="130px" >
+      <p id="value1" ></p>
+    </div>
+    <div class="img-1" data-target="150" data-attack="40" id="sidious">
+      <img src="./images/darth-sidious.png" alt="" width="200px" height="130px">
+      <p id="value2"></p>
+    </div>
+    <div class="img-1" data-target="120" data-attack="30"  id="luke">
+      <img src="./images/luke-skywalker.jpg" alt="" width="200px" height="130px">
+      <p id="value3"></p>
+    </div>
+    <div class="img-1" data-target="80" data-attack="20" id="obi">
+      <img src="./images/obi-wan.jpg" alt="" width="200px" height="130px">
+      <p id="value4"></p>
+    </div>
+  </div>
+
+  <button class="btn btn-danger ">Damage</button>
+
+  <div class="container choice">
+    <div class="your">
+      <h3>Your Choice</h3>
+      <div class="you-choice text-center">
+
+      </div>
+    </div>
+    <div class="comp">
+    <h3 class="mb-3">Computer Choice</h3>
+    <div class="comp-choice text-center">
+    </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
